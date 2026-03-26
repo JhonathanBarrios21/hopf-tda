@@ -1,4 +1,12 @@
 # Hopf bifurcation detection using Topological Data Analysis
+## Paper
+This repo contains a codebase for the paper
+
+"A Topological Criterion for Detecting Hopf Bifurcations from Time Series"
+
+by Jhonathan Barrios, Yásser Echávez and Carlos F. Álvarez. submitted (2026) 
+
+Article is and available in OpenAcess HERE Preprint can be find in arXiv:
 
 ## Overview
 
