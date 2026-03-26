@@ -6,7 +6,7 @@ This repo contains a codebase for the paper
 
 by Jhonathan Barrios, Yásser Echávez and Carlos F. Álvarez. submitted (2026) 
 
-Article is and available in OpenAcess HERE Preprint can be find in arXiv:
+Preprint can be find in arXiv:
 
 ## Overview
 
