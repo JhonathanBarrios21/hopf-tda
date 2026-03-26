@@ -1,49 +1,107 @@
 # Hopf bifurcation detection using Topological Data Analysis
+
 ## Paper
-This repo contains a codebase for the paper
 
-"A Topological Criterion for Detecting Hopf Bifurcations from Time Series"
+This repository contains the code and data supporting the paper:
 
-by Jhonathan Barrios, Yásser Echávez and Carlos F. Álvarez. submitted (2026) 
+**"A Topological Criterion for Detecting Hopf Bifurcations from Time Series"**
 
-Preprint can be find in arXiv:
+Jhonathan Barrios, Yásser Echávez, Carlos F. Álvarez (2026, submitted)
+
+Preprint available at:  *[arXiv link here]*
+
+---
 
 ## Overview
 
-This repository contains the code, data, and notebooks supporting the study of Hopf bifurcation detection from time series using Topological Data Analysis (TDA).
+This repository provides the computational framework used to study the detection of Hopf bifurcations from time series using Topological Data Analysis (TDA).
 
-The methodology is based on the following pipeline:
+The proposed methodology follows the pipeline:
 
-Time series → Takens embedding → Persistent homology → Topological summaries → Detection
+**Time series → Takens embedding → Persistent homology → Topological summaries → Detection**
+
+---
 
 ## Main contribution
 
-We propose a topological criterion based on maximum persistence:
+We introduce a topological criterion based on maximum persistence:
 
 H(μ) = max(d - b)
 
-which captures the emergence of a dominant 1-dimensional homological class associated with oscillatory behavior.
+which captures the emergence of a dominant one-dimensional homological class associated with oscillatory dynamics.
 
-## Contents
+---
 
-- Dynamical systems:
-  - Normal form of Hopf bifurcation
-  - Lorenz system
-  - Belousov–Zhabotinsky reaction model
+## Repository contents
 
-- Topological analysis:
-  - Persistence diagrams
-  - Maximum persistence
-  - Betti curves (L1 norm)
+### Dynamical systems
 
-- Additional analysis:
-  - Correlation with Lyapunov exponents
-  - Noise robustness
+- Normal form of Hopf bifurcation  
+- Lorenz system  
+- Belousov–Zhabotinsky reaction model  
+
+### Topological analysis
+
+- Persistence diagrams  
+- Maximum persistence  
+- Betti curves (L1 norm)  
+
+### Additional analysis
+
+- Correlation with Lyapunov exponents  
+- Robustness under noise  
+
+---
+
+## Repository structure
+notebooks/
+├── 01_normal_hopf.ipynb
+├── 02_lorenz.ipynb
+├── 03_bz_reaction.ipynb
+└── 04_lyapunov_correlations.ipynb
+
+data/
+└── raw/
+
+results/
+├── figures/
+└── tables/
+
+paper/
+└── figures/
+
+---
 
 ## Reproducibility
 
-The repository is organized to reproduce all numerical experiments and figures from the paper.
+All numerical experiments and figures from the paper can be reproduced using the provided notebooks.
+
+The recommended execution order is:
+
+1. `01_normal_hopf.ipynb`
+2. `02_lorenz.ipynb`
+3. `03_bz_reaction.ipynb`
+4. `04_lyapunov_correlations.ipynb`
+
+---
+
+## Requirements
+
+To run the notebooks, install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+
+@article{barrios2026hopf_tda,
+  title={A Topological Criterion for Detecting Hopf Bifurcations from Time Series},
+  author={Barrios, Jhonathan and Echávez, Yásser and Álvarez, Carlos F.},
+  year={2026}
+  note ={arXiv preprint arXiv:},
+  eprint= {},
+  archiveprefix= {arXiv},
+  primaryclass = {math.DS},
+  URL = {https://arxiv.org/abs/},
+}
 
 ## Status
-
-🚧 Work in progress — repository under construction
+This repository is under active development and may be updated as the paper evolves.
