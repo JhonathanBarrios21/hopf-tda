@@ -73,6 +73,11 @@ To run the notebooks, install the required Python packages:
 ```bash
 pip install -r requirements.txt
 
+---
+
+## Citation
+If you use this repository, please cite:
+
 @article{barrios2026hopf_tda,
   title={A Topological Criterion for Detecting Hopf Bifurcations from Time Series},
   author={Barrios, Jhonathan and Echávez, Yásser and Álvarez, Carlos F.},
