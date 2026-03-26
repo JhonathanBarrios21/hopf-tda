@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "A Topological Criterion for Detecting Hopf Bifurcations from Time Series"
 message: "If you use this repository, please cite the associated work."
-type: software
+type: article
 
 authors:
   - family-names: "Barrios"
@@ -11,6 +11,8 @@ authors:
     given-names: "Yasser"
   - family-names: "Álvarez"
     given-names: "Carlos F."
+journal: "arXiv"
+year:2026
 
 repository-code: "https://github.com/JhonathanBarrios21/hopf-tda"
 
