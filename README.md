@@ -53,25 +53,6 @@ which captures the emergence of a dominant one-dimensional homological class ass
 
 ---
 
-## Repository structure
-notebooks/
-├── 01_normal_hopf.ipynb
-├── 02_lorenz.ipynb
-├── 03_bz_reaction.ipynb
-└── 04_lyapunov_correlations.ipynb
-
-data/
-└── raw/
-
-results/
-├── figures/
-└── tables/
-
-paper/
-└── figures/
-
----
-
 ## Reproducibility
 
 All numerical experiments and figures from the paper can be reproduced using the provided notebooks.
