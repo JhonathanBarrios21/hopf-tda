@@ -79,14 +79,13 @@ pip install -r requirements.txt
 If you use this repository, please cite:
 
 @article{barrios2026hopf_tda,
-  title={A Topological Criterion for Detecting Hopf Bifurcations from Time Series},
-  author={Barrios, Jhonathan and Echávez, Yásser and Álvarez, Carlos F.},
-  year={2026}
-  note ={arXiv preprint arXiv:},
-  eprint= {},
-  archiveprefix= {arXiv},
-  primaryclass = {math.DS},
-  URL = {https://arxiv.org/abs/},
+      title={Topological Detection of Hopf Bifurcations via Persistent Homology: A Functional Criterion from Time Series}, 
+      author={Jhonathan Barrios and Yásser Echávez and Carlos F. Álvarez},
+      year={2026},
+      eprint={2603.27395},
+      archivePrefix={arXiv},
+      primaryClass={math.DS},
+      url={https://arxiv.org/abs/2603.27395}, 
 }
 
 ## Status
