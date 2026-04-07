@@ -8,7 +8,7 @@ This repository contains the code and data supporting the paper:
 
 Jhonathan Barrios, Yásser Echávez, Carlos F. Álvarez (2026, submitted)
 
-Preprint available at:  *[arXiv link here]*
+Preprint available at:  *[http://arxiv.org/abs/2603.27395]*
 
 ---
 
