@@ -4,7 +4,7 @@
 
 This repository contains the code and data supporting the paper:
 
-**"A Topological Criterion for Detecting Hopf Bifurcations from Time Series"**
+**"Topological Detection of Hopf Bifurcations via Persistent Homology: A Functional Criterion from Time Series"**
 
 Jhonathan Barrios, Yásser Echávez, Carlos F. Álvarez (2026, submitted)
 
